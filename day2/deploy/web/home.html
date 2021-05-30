@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Day 2 - SLR</title>
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        background-color: antiquewhite;
+      }
+      .div2 {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        padding: 30px;
+        transform: translate(-50%, -50%);
+        border: 1px solid black;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="div2">
+      <form action="http://localhost:5000" , method="POST">
+        <p>
+          Choose Ads Price that you want
+          <input type="number" name="Ads Price" min="10" max="50" /><input
+            type="submit"
+            value="OK"
+          />
+        </p>
+      </form>
+      <br />
+      <p>Prediction you get paid: ${{result}}</p>
+    </div>
+  </body>
+</html>
