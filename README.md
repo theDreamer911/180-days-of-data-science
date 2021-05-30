@@ -4,6 +4,7 @@
 
 ### Quote
 
-> Have a nice code!
+> It's Not About Your Time Is Limited, Is About How You Process It
 
+Have a nice code!
 _@handhikayp_
