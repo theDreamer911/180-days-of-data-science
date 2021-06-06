@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flower Classifier</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.9.0/css/bulma.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <style>
+      html {
+        overflow: hidden;
+      }
+
+      body {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+
+      #login-form-container {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="login-form-container">
+      <form action="classifier" method="GET">
+        <div class="card" style="width: 400px">
+          <div class="card-content">
+            <div class="media">
+              <div class="is-size-4 has-text-centered">
+                Flower Classification Using KNN
+              </div>
+              <div class="content">
+                <div class="field">
+                  <p class="control">
+                    Sepal Length:
+                    <input
+                      type="number"
+                      name="slen"
+                      id="slen"
+                      class="input"
+                      value="0.00"
+                      step="0.01"
+                    />
+                  </p>
+                </div>
+
+                <div class="field">
+                  <p class="control">
+                    Sepal Width:
+                    <input
+                      type="number"
+                      name="swid"
+                      id="swid"
+                      class="input"
+                      value="0.00"
+                      step="0.01"
+                    />
+                  </p>
+                </div>
+
+                <div class="field">
+                  <p class="control">
+                    Petal Length:
+                    <input
+                      type="number"
+                      name="plen"
+                      id="plen"
+                      class="input"
+                      value="0.00"
+                      step="0.01"
+                    />
+                  </p>
+                </div>
+
+                <div class="field">
+                  <p class="control">
+                    Petal Width:
+                    <input
+                      type="number"
+                      name="pwid"
+                      id="pwid"
+                      class="input"
+                      value="0.00"
+                      step="0.01"
+                    />
+                  </p>
+                </div>
+
+                <div class="field">
+                  <button class="button is-fullwidth is-rounded is-success">
+                    Submit
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
