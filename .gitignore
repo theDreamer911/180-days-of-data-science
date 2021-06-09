@@ -1,2 +1,6 @@
 /.vscode/
 *.csv
+dataset/
+datasets/
+**/dataset
+**/datasets
