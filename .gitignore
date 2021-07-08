@@ -4,3 +4,4 @@ dataset/
 datasets/
 **/dataset
 **/datasets
+.vscode/
