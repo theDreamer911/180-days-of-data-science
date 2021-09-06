@@ -1,0 +1,5 @@
+https://www.youtube.com/watch?v=RJjiCwKAR8w&ab_channel=ProgrammingHut
+
+ProgrammingHut
+
+* My first contact with android+ml world using Kotlin
