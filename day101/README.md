@@ -5,3 +5,9 @@ Since day 100, I want to focus for deployment, but without leaving the building 
 This tutorial I got from [here](https://towardsdatascience.com/model-deployment-using-flask-c5dcbb6499c9) and I rewrite all by myself, except all links.
 
 But because the model computation for this project is big, perhaps I will use the model that had been provided by the writer
+
+# Deployment
+
+Here is the link for the deployment
+
+[link](https://ml-project-1.herokuapp.com/)
